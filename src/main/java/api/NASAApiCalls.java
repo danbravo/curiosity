@@ -13,6 +13,8 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -84,6 +86,7 @@ public final class NASAApiCalls {
 
     private static boolean saveImages(List<String> images, String folderName) {
         try {
+            Files.createDirectories(Paths.get(folderName));
             for (String s : images) {
                 URL url = new URL(s);
                 BufferedImage img = ImageIO.read(url);
@@ -128,9 +131,10 @@ public final class NASAApiCalls {
     private static void cleanFolders(String... folders) {
         for (String f : folders) {
             try {
-                FileUtils.cleanDirectory(new File(f));
+                FileUtils.deleteDirectory(new File(f));
+//                FileUtils.cleanDirectory(new File(f));
             } catch (IOException e) {
-                System.err.println("Error while cleaning dirs");
+                System.err.println("Error while removing dirs");
                 e.printStackTrace();
             }
         }
