@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33003232-2dfb-450b-ba37-137ee649c418" name="Default" comment="" />
+    <list default="true" id="33003232-2dfb-450b-ba37-137ee649c418" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/api/NASAApiCalls.class" afterPath="$PROJECT_DIR$/target/classes/api/NASAApiCalls.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,12 +15,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NASAApiCalls.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NASAApiCalls.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/api/NASAApiCalls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="121" column="31" lean-forward="true" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="1423">
+              <caret line="136" column="56" lean-forward="false" selection-start-line="136" selection-start-column="56" selection-end-line="136" selection-end-column="56" />
+              <folding>
+                <element signature="e#2739#2740#0" expanded="true" />
+                <element signature="e#2799#2800#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,19 +32,21 @@
         <entry file="file://$PROJECT_DIR$/xmls/suite.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VerifyImages.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VerifyImages.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/VerifyImages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="522">
+              <caret line="34" column="80" lean-forward="true" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1606#1607#0" expanded="true" />
+                <element signature="e#1673#1674#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,6 +67,9 @@
       <find>NASAApiCalls</find>
       <find>NASAApiCalls.</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -98,6 +109,7 @@
     <option name="width" value="1938" />
     <option name="height" value="1058" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -113,10 +125,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,17 +138,65 @@
             <path>
               <item name="nasaApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="NasaTask" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nasaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NasaTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nasaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NasaTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nasaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NasaTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nasaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NasaTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nasaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NasaTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nasaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NasaTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apiTests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last.edited.regexp" value="http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.JPG" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danylok\Desktop\tst\projects\projects\NasaTask\imgByMarsTime" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -423,21 +482,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_danylok_Desktop_tst_projects_projects_QATestTask_xmls_suite_xml - 2018.01.17 at 22h 32m 33s.xml">
-      <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_danylok_Desktop_tst_projects_projects_QATestTask_xmls_suite_xml - 2018.01.17 at 22h 48m 05s.xml">
-      <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_danylok_Desktop_tst_projects_projects_QATestTask_xmls_suite_xml - 2018.01.17 at 22h 52m 38s.xml">
-      <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_danylok_Desktop_tst_projects_projects_QATestTask_xmls_suite_xml - 2018.01.18 at 01h 17m 12s.xml">
-      <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_danylok_Desktop_tst_projects_projects_QATestTask_xmls_suite_xml - 2018.01.18 at 01h 20m 35s.xml">
-      <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_danylok_Desktop_tst_projects_projects_QATestTask_xmls_suite_xml - 2018.01.18 at 11h 26m 54s.xml">
       <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
     </history-entry>
@@ -445,6 +489,21 @@
       <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_danylok_Desktop_tst_projects_projects_QATestTask_xmls_suite_xml - 2018.01.18 at 11h 37m 39s.xml">
+      <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_danylok_Desktop_tst_projects_projects_QATestTask_xmls_suite_xml - 2018.01.18 at 16h 04m 01s.xml">
+      <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_danylok_Desktop_tst_projects_projects_QATestTask_xmls_suite_xml - 2018.01.18 at 16h 09m 53s.xml">
+      <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_danylok_Desktop_tst_projects_projects_QATestTask_xmls_suite_xml - 2018.01.18 at 16h 17m 25s.xml">
+      <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_danylok_Desktop_tst_projects_projects_QATestTask_xmls_suite_xml - 2018.01.18 at 16h 18m 09s.xml">
+      <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_danylok_Desktop_tst_projects_projects_QATestTask_xmls_suite_xml - 2018.01.18 at 16h 19m 09s.xml">
       <configuration name="C:/Users/danylok/Desktop/tst/projects/projects/QATestTask/xmls/suite.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="VerifyImages - 2018.01.17 at 22h 40m 12s.xml">
@@ -456,6 +515,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1046" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -465,12 +525,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6208791" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56373626" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -497,9 +557,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/api/NASAApiCalls.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="121" column="31" lean-forward="true" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
+          <folding>
+            <element signature="e#2739#2740#0" expanded="true" />
+            <element signature="e#2799#2800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmls/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/VerifyImages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/NASAApiCalls.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2739#2740#0" expanded="true" />
+            <element signature="e#2799#2800#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -517,6 +611,8 @@
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -718,18 +814,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/QATestTask.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/QATestTask.iml" />
     <entry file="file://$PROJECT_DIR$/nasaApi.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgByEarthTime/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgByMarsTime/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -737,25 +841,30 @@
     <entry file="file://$PROJECT_DIR$/xmls/suite.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/NASAApiCalls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="121" column="31" lean-forward="true" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/apiTests/VerifyImages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="522">
+          <caret line="34" column="80" lean-forward="true" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/NASAApiCalls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1423">
+          <caret line="136" column="56" lean-forward="false" selection-start-line="136" selection-start-column="56" selection-end-line="136" selection-end-column="56" />
+          <folding>
+            <element signature="e#2739#2740#0" expanded="true" />
+            <element signature="e#2799#2800#0" expanded="true" />
           </folding>
         </state>
       </provider>
