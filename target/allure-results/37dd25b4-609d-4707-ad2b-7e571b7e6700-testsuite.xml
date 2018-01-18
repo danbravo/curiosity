@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1516268246607" stop="1516268259210" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>API Test Suite : Verify Curiosity images</name>
+    <title>API Test Suite : Verify Curiosity images</title>
+    <test-cases>
+        <test-case start="1516268246723" stop="1516268254634" status="passed">
+            <name>getDataBySolTime[1000]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="6596@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1516268254802" stop="1516268258693" status="passed">
+            <name>getDataByEarthTime[1000]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="6596@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1516268258693" stop="1516268259194" status="passed">
+            <name>compareImageContext</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="6596@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1516268259194" stop="1516268259210" status="passed">
+            <name>compareImageMetaData</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="6596@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

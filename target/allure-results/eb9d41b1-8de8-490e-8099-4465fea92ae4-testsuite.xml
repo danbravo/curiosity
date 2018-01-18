@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1516267788251" stop="1516267812568" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>API Test Suite : Verify Curiosity images</name>
+    <title>API Test Suite : Verify Curiosity images</title>
+    <test-cases>
+        <test-case start="1516267788411" stop="1516267807935" status="passed">
+            <name>getDataBySolTime[1000]</name>
+            <steps>
+                <step start="1516267788853" stop="1516267804740" status="passed">
+                    <name>doGetRequest[https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos, sol, 1000, htvAOXAKOjVwYu6L8ixPzLRp0G1SdaE...]</name>
+                    <title>GET Request</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516267804744" stop="1516267805839" status="passed">
+                    <name>getImageMetaData[io.restassured.internal.RestAssuredResponseImpl@31ee5a9]</name>
+                    <title>Save meta data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516267805842" stop="1516267807913" status="passed">
+                    <name>saveImageFiles[io.restassured.internal.RestAssuredResponseImpl@31ee5a9, imgByMarsTime]</name>
+                    <title>Save first 10 images</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="19448@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1516267807935" stop="1516267812065" status="passed">
+            <name>getDataByEarthTime[1000]</name>
+            <steps>
+                <step start="1516267807935" stop="1516267809216" status="passed">
+                    <name>doGetRequest[https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos, sol, 1000, htvAOXAKOjVwYu6L8ixPzLRp0G1SdaE...]</name>
+                    <title>GET Request</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516267809216" stop="1516267809270" status="passed">
+                    <name>getEarthDate[io.restassured.internal.RestAssuredResponseImpl@4ff19f87]</name>
+                    <title>Get earth date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516267809270" stop="1516267810799" status="passed">
+                    <name>doGetRequest[https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos, earth_date, 2015-05-30, htvAOXAKOjVwYu6L8i...]</name>
+                    <title>GET Request</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516267810800" stop="1516267810839" status="passed">
+                    <name>getImageMetaData[io.restassured.internal.RestAssuredResponseImpl@614a720e]</name>
+                    <title>Save meta data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516267810841" stop="1516267812065" status="passed">
+                    <name>saveImageFiles[io.restassured.internal.RestAssuredResponseImpl@614a720e, imgByEarthTime]</name>
+                    <title>Save first 10 images</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="19448@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1516267812065" stop="1516267812536" status="passed">
+            <name>compareImageContext</name>
+            <steps>
+                <step start="1516267812065" stop="1516267812536" status="passed">
+                    <name>compareImagesInDir[imgByMarsTime, imgByEarthTime]</name>
+                    <title>Compare images for context</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="19448@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1516267812536" stop="1516267812552" status="passed">
+            <name>compareImageMetaData</name>
+            <steps>
+                <step start="1516267812552" stop="1516267812552" status="passed">
+                    <name>compareMetaData[[{sol=1000, earth_date=2015-05-30, id=102693, camera={full_name=Front Hazard Avoidance Camera, name=FHAZ...]</name>
+                    <title>Compare images for metadata</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="19448@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1516222051970" stop="1516222084804" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>API Test Suite : Verify Curiosity images</name>
+    <title>API Test Suite : Verify Curiosity images</title>
+    <test-cases>
+        <test-case start="1516222052329" stop="1516222080557" status="passed">
+            <name>getDataBySolTime[1000]</name>
+            <steps>
+                <step start="1516222052636" stop="1516222080554" status="passed">
+                    <name>getAndSaveDataBySol[1000, htvAOXAKOjVwYu6L8ixPzLRp0G1SdaEKWcqCRTHJ]</name>
+                    <title>GET and save first 10 Mars photos by sol</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="12236@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1516222080567" stop="1516222084030" status="passed">
+            <name>getDataByEarthTime[1000]</name>
+            <steps>
+                <step start="1516222080570" stop="1516222084030" status="passed">
+                    <name>getAndSaveDataByEarthDate[1000, htvAOXAKOjVwYu6L8ixPzLRp0G1SdaEKWcqCRTHJ]</name>
+                    <title>GET and save first 10 Mars photos by earth date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="12236@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1516222084032" stop="1516222084769" status="passed">
+            <name>compareImageContext</name>
+            <steps>
+                <step start="1516222084035" stop="1516222084732" status="passed">
+                    <name>compareImages</name>
+                    <title>Compare downloaded images for name and context</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="12236@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1516222084773" stop="1516222084785" status="passed">
+            <name>compareMetaData</name>
+            <steps>
+                <step start="1516222084778" stop="1516222084779" status="passed">
+                    <name>compareMetaData</name>
+                    <title>Compare images metadata</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="12236@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

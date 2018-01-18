@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1516231006155" stop="1516231031582" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>API Test Suite : Verify Curiosity images</name>
+    <title>API Test Suite : Verify Curiosity images</title>
+    <test-cases>
+        <test-case start="1516231006279" stop="1516231025455" status="passed">
+            <name>getDataBySolTime[1000]</name>
+            <steps>
+                <step start="1516231021039" stop="1516231022137" status="passed">
+                    <name>getImageMetaData[io.restassured.internal.RestAssuredResponseImpl@463e0b6a]</name>
+                    <title>GET meta data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516231022141" stop="1516231025424" status="passed">
+                    <name>saveImageFiles[io.restassured.internal.RestAssuredResponseImpl@463e0b6a, imgByMarsTime]</name>
+                    <title>save first 10 photos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="11644@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1516231025473" stop="1516231031081" status="passed">
+            <name>getDataByEarthTime[1000]</name>
+            <steps>
+                <step start="1516231028157" stop="1516231028210" status="passed">
+                    <name>getImageMetaData[io.restassured.internal.RestAssuredResponseImpl@4c5a9ddc]</name>
+                    <title>GET meta data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1516231028210" stop="1516231031081" status="passed">
+                    <name>saveImageFiles[io.restassured.internal.RestAssuredResponseImpl@4c5a9ddc, imgByEarthTime]</name>
+                    <title>save first 10 photos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="11644@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1516231031097" stop="1516231031582" status="passed">
+            <name>compareImageContext</name>
+            <steps>
+                <step start="1516231031097" stop="1516231031582" status="passed">
+                    <name>compareImagesInDir[imgByMarsTime, imgByEarthTime]</name>
+                    <title>Compare downloaded images for name and context</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="11644@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1516231031582" stop="1516231031582" status="passed">
+            <name>compareImageMetaData</name>
+            <steps>
+                <step start="1516231031582" stop="1516231031582" status="passed">
+                    <name>compareMetaData[[{sol=1000, earth_date=2015-05-30, id=102693, camera={full_name=Front Hazard Avoidance Camera, name=FHAZ...]</name>
+                    <title>Compare images metadata</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Get Curiosity photos and metadata (API call), verify they are equal"/>
+                <label name="feature" value="GET API request"/>
+                <label name="host" value="PTUA-LS0044"/>
+                <label name="thread" value="11644@PTUA-LS0044.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
